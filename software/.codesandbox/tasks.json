@@ -2,7 +2,7 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "command": "dotnet restore",
+      "command": "cd software && dotnet restore",
       "name": "d"
     }
   ],
@@ -11,7 +11,7 @@
   "tasks": {
     "d": {
       "name": "d",
-      "command": "dotnet run",
+      "command": "cd software && dotnet run",
       "runAtStart": true
     }
   }
