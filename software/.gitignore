@@ -3,3 +3,6 @@ bin
 obj
 Notes.txt
 *.user
+Input and Output
+run_demo.ps1
+viewpoints.cast

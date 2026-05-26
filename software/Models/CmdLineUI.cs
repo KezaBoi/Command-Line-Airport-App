@@ -26,7 +26,9 @@ namespace PST2
         /// <inheritdoc/>
         public string? GetInput()
         {
-            return Console.ReadLine();
+            string? input = Console.ReadLine();
+            DisplayString();
+            return input;
         }
 
         /// <inheritdoc/>

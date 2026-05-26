@@ -108,7 +108,7 @@ namespace PST2
             if (totalPoints > FrequentFlyerPoints)
             {
                 string s = (BookedArrivalFlight == null || BookedDepartureFlight == null) ? "" : "s";
-                stringToPrint += $"After completing your flight{s} your new points will be: {totalPoints:N0}.";
+                stringToPrint += $"After completing your flight{s} your new points will be: {totalPoints:N0}.\n";
             }
 
             return stringToPrint;

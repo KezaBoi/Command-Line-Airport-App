@@ -10,7 +10,7 @@ namespace PST2
     public static class BNEConsts
     {
         // Menu Headers
-        public const string MAIN_HEADER = "\nPlease make a choice from the menu below:";
+        public const string MAIN_HEADER = "Please make a choice from the menu below:";
 
         public const string REGISTER_HEADER = "Which user type would you like to register?";
 

@@ -89,7 +89,7 @@ namespace PST2
             userInterface.DisplayString("Registering as a traveller.");
             RegisterStandardUser(out string name, out int age, out string phoneNumber, out string emailAddress, out string password);
             User newUser = new StandardTraveller(name, age, phoneNumber, emailAddress, password);
-            userInterface.DisplayString($"Congratulations {name}. You have registered as a traveller.");
+            userInterface.DisplayString($"Congratulations {name}. You have registered as a traveller.\n");
             return newUser;
         }
 
@@ -105,7 +105,7 @@ namespace PST2
             int frequentFlyerPoints = userInterface.GetValidInt("current frequent flyer points", 0, 1000000);
 
             User newUser = new FrequentFlyer(name, age, phoneNumber, emailAddress, password, frequentFlyerNumber, frequentFlyerPoints);
-            userInterface.DisplayString($"Congratulations {name}. You have registered as a frequent flyer.");
+            userInterface.DisplayString($"Congratulations {name}. You have registered as a frequent flyer.\n");
             return newUser;
         }
 
@@ -120,7 +120,7 @@ namespace PST2
             int staffID = userInterface.GetValidInt("staff id", 1000, 9000);
 
             User newUser = new FlightManager(name, age, phoneNumber, emailAddress, password, staffID);
-            userInterface.DisplayString($"Congratulations {name}. You have registered as a flight manager.");
+            userInterface.DisplayString($"Congratulations {name}. You have registered as a flight manager.\n");
             return newUser;
         }
     }
