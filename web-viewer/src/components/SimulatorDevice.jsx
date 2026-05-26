@@ -36,7 +36,7 @@ export default function ConsoleSandbox() {
         Live .NET Runtime Environment
       </span>
 
-      {/* 💻 THE TERMINAL HOUSING WINDOW (Windows cmd / Linux Bash Enclosure Style) */}
+      {/* TERMINAL HOUSING WINDOW (Windows cmd / Linux Bash Enclosure Style) */}
       <div className="w-full h-auto bg-[#121314] rounded-lg border border-[#333] shadow-2xl overflow-hidden flex flex-col">
 
         {/* Top Header Control Strip */}
@@ -50,13 +50,8 @@ export default function ConsoleSandbox() {
           </div>
         </div>
 
-        {/* 🚀 THE LIVE CODESANDBOX ENGINE IFRAME
-            - Swap 'YOUR_BOX_ID_HERE' with your actual unique CodeSandbox share ID string.
-            - view=preview: Forces it to load straight into your interactive terminal view.
-            - hidenavigation=1: Hides the editor workspace menu bars for a pure layout look.
-        */}
-        {/* React anchors the official script directly inside this DOM element node */}
-        <div ref={containerRef} className="w-full h-full flex-col min-height-[300px]" />
+        {/* Asciienema Viewer */}
+        <div ref={containerRef} className="w-full h-auto flex-col" />
       </div>
 
       {/* Footnote status ribbon */}
