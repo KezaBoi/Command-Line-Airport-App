@@ -1,0 +1,7 @@
+# Web-Simulator Blocks
+web-simulator/node_modules/
+web-simulator/dist/
+
+# PlatformIO Firmware Blocks
+firmware/.pio/
+firmware/.vscdb/
