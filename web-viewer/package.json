@@ -11,9 +11,7 @@
   },
   "dependencies": {
     "@codesandbox/sandpack-react": "^2.20.0",
-    "asciinema-player": "^3.15.1",
     "react": "^19.2.6",
-    "react-asciinema-player": "^1.0.3",
     "react-dom": "^19.2.6",
     "react-syntax-highlighter": "^16.1.1"
   },

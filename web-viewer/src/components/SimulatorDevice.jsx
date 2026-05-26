@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-// import AsciinemaPlayer from 'react-asciinema-player';
 
 export default function ConsoleSandbox() {
   const containerRef = useRef(null);
